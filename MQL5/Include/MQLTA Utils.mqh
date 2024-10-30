@@ -255,73 +255,73 @@ int WindowFind(string Name){
 }
 
 string TimeFrameDescription(int TimeFrame){
-   string perioddesc="";
+   string PeriodDesc="";
    switch (TimeFrame){
       case PERIOD_M1: 
-         perioddesc="M1";
+         PeriodDesc="M1";
          break;
       case PERIOD_M2: 
-         perioddesc="M2";
+         PeriodDesc="M2";
          break;
       case PERIOD_M3: 
-         perioddesc="M3";
+         PeriodDesc="M3";
          break;
       case PERIOD_M4: 
-         perioddesc="M4";
+         PeriodDesc="M4";
          break;
       case PERIOD_M5: 
-         perioddesc="M5";
+         PeriodDesc="M5";
          break;
       case PERIOD_M6: 
-         perioddesc="M6";
+         PeriodDesc="M6";
          break;
       case PERIOD_M10: 
-         perioddesc="M10";
+         PeriodDesc="M10";
          break;
       case PERIOD_M12: 
-         perioddesc="M12";
+         PeriodDesc="M12";
          break;
       case PERIOD_M15: 
-         perioddesc="M15";
+         PeriodDesc="M15";
          break;
       case PERIOD_M20: 
-         perioddesc="M20";
+         PeriodDesc="M20";
          break;
       case PERIOD_M30: 
-         perioddesc="M30";
+         PeriodDesc="M30";
          break;
       case PERIOD_H1: 
-         perioddesc="H1";
+         PeriodDesc="H1";
          break;
       case PERIOD_H2: 
-         perioddesc="H2";
+         PeriodDesc="H2";
          break;
       case PERIOD_H3: 
-         perioddesc="H3";
+         PeriodDesc="H3";
          break;
       case PERIOD_H4: 
-         perioddesc="H4";
+         PeriodDesc="H4";
          break;
       case PERIOD_H6: 
-         perioddesc="H6";
+         PeriodDesc="H6";
          break;
       case PERIOD_H8: 
-         perioddesc="H8";
+         PeriodDesc="H8";
          break;
       case PERIOD_H12: 
-         perioddesc="H12";
+         PeriodDesc="H12";
          break;
       case PERIOD_D1: 
-         perioddesc="D1";
+         PeriodDesc="D1";
          break;
       case PERIOD_W1: 
-         perioddesc="W1";
+         PeriodDesc="W1";
          break;
       case PERIOD_MN1: 
-         perioddesc="MN1";
+         PeriodDesc="MN1";
          break;
    }
-   return perioddesc;
+   return PeriodDesc;
 }
 
 
